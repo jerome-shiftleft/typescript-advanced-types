@@ -15,6 +15,7 @@
 //import typeGuards from "./lectures/typeGuards";
 //import discriminatedUnions from "./lectures/discriminatedUnions";
 //import typeCasting from "./lectures/typeCasting";
-import indexProperties from "./lectures/indexProperties";
+//import indexProperties from "./lectures/indexProperties";
+import functionOverloads from "./lectures/functionOverloads";
 
-indexProperties();
+functionOverloads();
