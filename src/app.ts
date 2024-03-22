@@ -14,6 +14,7 @@
 //import intersectionTypes from "./lectures/intersectionTypes";
 //import typeGuards from "./lectures/typeGuards";
 //import discriminatedUnions from "./lectures/discriminatedUnions";
-import typeCasting from "./lectures/typeCasting";
+//import typeCasting from "./lectures/typeCasting";
+import indexProperties from "./lectures/indexProperties";
 
-typeCasting();
+indexProperties();
