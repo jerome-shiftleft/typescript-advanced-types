@@ -13,7 +13,7 @@ export default function functionOverloads() {
     return a + b;
   }
 
-  const result = add(1, "2.5");
+  const result = add('jerome', "2.5");
   console.log(`result: ${result}`);
   const splittedResult = result.split(".");
   console.log(`splittedResult: ${splittedResult}`);
