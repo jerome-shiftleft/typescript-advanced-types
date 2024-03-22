@@ -70,7 +70,11 @@ export default function typeGuards() {
 
   function useVehicle(vehicle: Vehicle) {
     vehicle.drive();
-    if ('loadCargo' in vehicle) {
+    // if ('loadCargo' in vehicle) {
+    //   vehicle.loadCargo(1000);
+    // }
+
+    if (vehicle instanceof Truck) {
       vehicle.loadCargo(1000);
     }
   }
