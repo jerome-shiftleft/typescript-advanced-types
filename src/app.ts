@@ -17,6 +17,7 @@
 //import typeCasting from "./lectures/typeCasting";
 //import indexProperties from "./lectures/indexProperties";
 //import functionOverloads from "./lectures/functionOverloads";
-import optionalChaining from "./lectures/optionalChaining";
+//import optionalChaining from "./lectures/optionalChaining";
+import nullishCoalescing from "./lectures/nullishCoalescing";
 
-optionalChaining();
+nullishCoalescing();
