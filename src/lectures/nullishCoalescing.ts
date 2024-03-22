@@ -13,17 +13,23 @@ export default function nullishCoalescing() {
     return a + b;
   }
 
-  const result = add('jerome', "2.5");
+  const result = add("jerome", "2.5");
   console.log(`result: ${result}`);
   const splittedResult = result.split(".");
   console.log(`splittedResult: ${splittedResult}`);
 
   const fetchedUserData = {
-    id: 'u1',
-    name: 'jerome',
-    job: { title: 'developer', description: 'typescript' }
+    id: "u1",
+    name: "jerome",
+    job: { title: "developer", description: "typescript" },
   };
 
   //console.log(fetchedUserData.job && fetchedUserData.job.title);
-  console.log(fetchedUserData?.job.title);
+  console.log(fetchedUserData?.job?.title);
+
+  //const userInput = (document.getElementById('user-input') as HTMLInputElement)?.value;
+  const userInput = "";
+  const storedData = userInput ?? "DEFAULT";
+
+  console.log(`storedData: ${storedData}`);
 } // end of export default function nullishCoalescing()
