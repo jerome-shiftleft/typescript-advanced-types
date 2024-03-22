@@ -10,6 +10,7 @@
 //import functionReturnType from "./lectures/functionReturnType";
 //import functionAsTypes from "./lectures/functionAsTypes";
 //import callbacks from "./lectures/callbacks";
-import neverType from "./lectures/neverType";
+//import neverType from "./lectures/neverType";
+import intersectionTypes from "./lectures/intersectionTypes";
 
-neverType();
+intersectionTypes();
