@@ -11,6 +11,7 @@
 //import functionAsTypes from "./lectures/functionAsTypes";
 //import callbacks from "./lectures/callbacks";
 //import neverType from "./lectures/neverType";
-import intersectionTypes from "./lectures/intersectionTypes";
+//import intersectionTypes from "./lectures/intersectionTypes";
+import typeGuards from "./lectures/typeGuards";
 
-intersectionTypes();
+typeGuards();
