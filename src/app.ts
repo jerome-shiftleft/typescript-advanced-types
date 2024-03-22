@@ -16,6 +16,7 @@
 //import discriminatedUnions from "./lectures/discriminatedUnions";
 //import typeCasting from "./lectures/typeCasting";
 //import indexProperties from "./lectures/indexProperties";
-import functionOverloads from "./lectures/functionOverloads";
+//import functionOverloads from "./lectures/functionOverloads";
+import optionalChaining from "./lectures/optionalChaining";
 
-functionOverloads();
+optionalChaining();
