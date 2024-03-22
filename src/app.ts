@@ -13,6 +13,7 @@
 //import neverType from "./lectures/neverType";
 //import intersectionTypes from "./lectures/intersectionTypes";
 //import typeGuards from "./lectures/typeGuards";
-import discriminatedUnions from "./lectures/discriminatedUnions";
+//import discriminatedUnions from "./lectures/discriminatedUnions";
+import typeCasting from "./lectures/typeCasting";
 
-discriminatedUnions();
+typeCasting();
