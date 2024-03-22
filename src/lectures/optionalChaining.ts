@@ -17,4 +17,13 @@ export default function optionalChaining() {
   console.log(`result: ${result}`);
   const splittedResult = result.split(".");
   console.log(`splittedResult: ${splittedResult}`);
+
+  const fetchedUserData = {
+    id: 'u1',
+    name: 'jerome',
+    job: { title: 'developer', description: 'typescript' }
+  };
+
+  //console.log(fetchedUserData.job && fetchedUserData.job.title);
+  console.log(fetchedUserData?.job.title);
 } // end of export default function optionalChaining()
