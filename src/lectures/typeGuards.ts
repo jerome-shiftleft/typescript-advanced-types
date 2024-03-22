@@ -1,6 +1,4 @@
 export default function typeGuards() {
-
-
   type Admin = {
     name: string;
     privileges: string[];
@@ -10,7 +8,7 @@ export default function typeGuards() {
     name: string;
     startDate: Date;
   };
-  
+
   type ElevatedEmployee = Admin & Employee;
 
   const e1: ElevatedEmployee = {
@@ -25,38 +23,38 @@ export default function typeGuards() {
   type Universal = Combinable & Numeric;
 
   function add(a: Combinable, b: Combinable) {
-    if (typeof a === 'string' || typeof b === 'string') {
+    if (typeof a === "string" || typeof b === "string") {
       return `${a}${b}`;
     }
     return a + b;
   }
 
-  const result = add(1, '2.5');
+  const result = add(1, "2.5");
   console.log(`result: ${result}`);
 
   type UnknownEmployee = Employee | Admin;
 
   function printEmployeeInformation(emp: UnknownEmployee) {
     console.log(`name: ${emp.name}`);
-    if ('privileges' in emp) {
+    if ("privileges" in emp) {
       console.log(`privileges: ${emp.privileges}`);
     }
-    if('startDate' in emp) {
+    if ("startDate" in emp) {
       console.log(`startDate: ${emp.startDate}`);
-    }    
+    }
   }
 
   printEmployeeInformation(e1);
 
   class Car {
     drive() {
-      console.log('Driving...');
+      console.log("Driving...");
     }
   }
 
   class Truck {
     drive() {
-      console.log('Driving...');
+      console.log("Driving...");
     }
     loadCargo(amount: number) {
       console.log(`Loading cargo... ${amount}`);
@@ -81,5 +79,4 @@ export default function typeGuards() {
 
   useVehicle(v1);
   useVehicle(v2);
-
 } // end of export default function typeGuards()
